@@ -47,6 +47,8 @@ public class ProjectServlet extends HttpServlet {
                 listProjects(request, response);
                 break;
         }
+
+
     }
 
     private void listProjects(HttpServletRequest request, HttpServletResponse response)

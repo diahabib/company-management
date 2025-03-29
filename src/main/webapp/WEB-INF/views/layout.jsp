@@ -175,10 +175,22 @@
         <span>Tâches</span>
       </a>
 
-      <a href="${pageContext.request.contextPath}/profile" class="nav-item ${activePage == 'profile' ? 'active' : ''}">
-        <i class="fas fa-user-circle"></i>
-        <span>Mon Profil</span>
+      <a href="${pageContext.request.contextPath}/employees" class="nav-item ${activePage == 'employees' ? 'active' : ''}">
+        <i class="fas fa-tasks"></i>
+        <span>Employés</span>
       </a>
+
+      <a href="${pageContext.request.contextPath}/
+      projects" class="nav-item ${activePage == 'projects' ? 'active' : ''}">
+        <i class="fas fa-tasks"></i>
+        <span>Projets</span>
+      </a>
+
+      <a href="${pageContext.request.contextPath}/departments" class="nav-item ${activePage == 'departments' ? 'active' : ''}">
+        <i class="fas fa-tasks"></i>
+        <span>Departements</span>
+      </a>
+
     </nav>
   </aside>
 

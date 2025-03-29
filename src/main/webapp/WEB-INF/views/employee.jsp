@@ -53,7 +53,7 @@
                         </c:forEach>
                     </select>
                 </div>
-
+                <!--
                 <div class="form-group">
                     <label for="role"><i class="fas fa-briefcase"></i> Rôle :</label>
                     <select id="role" name="role" class="form-control">
@@ -63,6 +63,7 @@
                         <option value="ADMIN" ${employee.role == 'ADMIN' ? 'selected' : ''}>Admin</option>
                     </select>
                 </div>
+                !-->
             </div>
 
             <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Rechercher</button>

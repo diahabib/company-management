@@ -48,6 +48,7 @@ public class DepartmentServlet extends HttpServlet {
                 listDepartments(request, response);
                 break;
         }
+
     }
 
     private void listDepartments(HttpServletRequest request, HttpServletResponse response)
